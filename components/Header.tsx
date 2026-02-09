@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Layout from './Layout';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,6 +27,7 @@ const Header: React.FC = () => {
           : 'bg-transparent py-5'
       }`}
     >
+      <Layout>
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3 group">
           <div className="relative">
@@ -78,6 +80,7 @@ const Header: React.FC = () => {
           </svg>
         </button>
       </div>
+      </Layout>
     </header>
   );
 };
