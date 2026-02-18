@@ -142,7 +142,7 @@ const Contact: React.FC = () => {
               </div>
             </div>
 
-            {/* <div className="bg-white p-10 md:p-14 rounded-[3rem] shadow-[0_48px_96px_-24px_rgba(0,0,0,0.12)] border border-neutral-50 relative overflow-hidden">
+            <div className="bg-white p-10 md:p-14 rounded-[3rem] shadow-[0_48px_96px_-24px_rgba(0,0,0,0.12)] border border-neutral-50 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-brand-primary/5 rounded-full -mr-16 -mt-16"></div>
               <form onSubmit={handleSubmit} className="relative z-10 space-y-8">
                 <div className="grid md:grid-cols-2 gap-8">
@@ -206,7 +206,7 @@ const Contact: React.FC = () => {
                   {status === "success" && "Inquiry Received"}
                 </button>
               </form>
-            </div> */}
+            </div>
           </div>
         </div>
       </Layout>
